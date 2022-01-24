@@ -1,5 +1,5 @@
 # BIGMAP AI Cluster Expansion Exercises
-This repository contains the execises for the 2022 BIG-MAP AI Workshop.
+This repository contains the execises for the 2022 BIG-MAP AI workshop on Cluster Expansion.
 
 ## Software Installation
 All of the exercises will be done using Python within a Jupyter notebook.
