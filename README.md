@@ -20,7 +20,11 @@ Then install the required software:
 ```shell
 pip install clease pandas tqdm jupyter
 ```
-
+You can verify that `clease` is installed by running the command
+```shell
+clease --version
+```
+which should say `clease, version 0.10.8` (or higher).
 ### Installation via conda
 Miniconda can be installed from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html), which is our recommended version of anaconda.
 
@@ -31,9 +35,13 @@ conda create -n myenv -y python=3.9                         # Create a new virtu
 conda activate myenv                                        # Activate the new environment
 conda install -y -c conda-forge clease pandas tqdm jupyter  # Install the required python packages
 ```
+You can verify that `clease` is installed by running the command
+```shell
+clease --version
+```
+which should say `clease, version 0.10.8` (or higher).
 
 ## Running the exercises
-
 First, if you didn't already download the exercises, we need to get them. We do this using git. From your terminal, fetch the exercises using `git` (if you're using `conda`, and it doesn't recognize the `git` command, do `conda install git`)
 ```shell
 git clone https://github.com/atygesen/bigmap_clease_workshop.git
