@@ -54,3 +54,8 @@ and finally, launch a new Jupyter notebook:
 ```shell
 jupyter notebook
 ```
+
+If you need to update your reposotory, e.g. due to any changes or updates to the exercises, go into the git repository and do
+```shell
+git pull
+```
